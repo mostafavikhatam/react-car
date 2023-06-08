@@ -1,0 +1,25 @@
+.btn-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn{
+    border: none;
+    background: white;
+    color: #6082bb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+     width: 30%;
+    padding: 10px 0 ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 2px 3px 10px gray;
+    background-color: #1d3865;
+    transition: 0.25s;
+}
+
+
+
